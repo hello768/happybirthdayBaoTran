@@ -1,0 +1,271 @@
+:root {
+  --background-color: rgb(253, 214, 222);
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Glory", sans-serif;
+}
+.icon {
+  width: 90px;
+}
+.age {
+  position: absolute;
+  top: -28px;
+  left: 37px;
+  display: flex;
+  background-color: rgb(255, 230, 0);
+  justify-content: center;
+  align-items: center;
+  border-radius: 25%;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 180px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 163, 179);
+  position: fixed;
+  border-radius: 20px;
+  z-index:1;
+}
+.logo {
+  position: relative;
+  display: flex;
+}
+.title {
+  padding-top: 180px;
+}
+body {
+  background-color: var(--background-color);
+}
+.cachra-md {
+  width: 1134px;
+}
+.cachra-sm {
+  width: 760px;
+}
+.cachra-lg {
+  width: 1360px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+.Princess {
+  position: absolute;
+  top: 90px;
+  left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Allison", cursive;
+  font-size: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.mx-1 {
+  margin: 0 var(--spacing-1);
+}
+.mx-2 {
+  margin: 0 var(--spacing-2);
+}
+.mx-3 {
+  margin: 0 var(--spacing-3);
+}
+.mx-4 {
+  margin: 0 var(--spacing-4);
+}
+.mx-5 {
+  margin: 0 var(--spacing-5);
+}
+.mx-6 {
+  margin: 0 var(--spacing-6);
+}
+.mx-7 {
+  margin: 0 var(--spacing-7);
+}
+.mx-8 {
+  margin: 0 var(--spacing-8);
+}
+.mx-9 {
+  margin: 0 var(--spacing-9);
+}
+.mx-10 {
+  margin: 0 var(--spacing-10);
+}
+.hover {
+  color: rgb(255, 62, 95);
+  transition: 0.1s ease-in-out;
+  font-size: 60px;
+  font-style: italic;
+  text-shadow: 2px 2px rgb(255 228 196);
+}
+.hover:hover {
+  color: rgb(255 228 196);
+}
+button {
+  padding: var(--spacing-2) var(--spacing-4);
+  background-color: rgb(255 228 196);
+  outline: none;
+  border-radius: 5%;
+  font-weight: bold;
+  color: rgb(255, 62, 95);
+  font-size: 15px;
+  border-color: rgb(255, 62, 95);
+}
+.hover2 {
+  color: rgb(255, 62, 95);
+  transition: 0.1s ease-in-out;
+  font-size: 90px;
+  font-style: italic;
+  font-family: "Allison", cursive;
+  text-shadow: 2px 2px rgb(255 228 196);
+}
+.hover2:hover {
+  color: rgb(255 228 196);
+}
+.bigtitle {
+  position: absolute;
+  position: relative;
+  top: -55px;
+  left: -120px;
+}
+.bigtitle2 {
+  position: absolute;
+  top: 85px;
+  left: 500px;
+}
+.hover3 {
+  color: rgb(255, 62, 95);
+  transition: 0.1s ease-in-out;
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: -1px -1px rgb(255 228 196);
+}
+.bigtitle3 {
+  position: absolute;
+  top: 79px;
+  left: 530px;
+}
+.hover3:hover {
+  color: rgb(255 228 196);
+}
+.content {
+  min-width: 100vh;
+  height: 1370px;}
+.smallercontent {
+  background-color: rgb(254, 163, 180);
+  width: 90vh;
+  height: 40vh;
+  margin-left: 40px;
+  margin-top: 46px;
+  border-radius: 25px;
+}
+.img1 {
+  width: 500px;
+  margin-left: 315px;
+  margin-top: 45px;
+}
+
+.img3 {
+  width: 500px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  margin-right: 10px;
+}
+.p1 {
+  width: 600px;
+  margin-left: 70px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.p2 {
+  font-size: 12px;
+  width: 200px;
+  margin-left: 500px;
+  margin-top: 25px;
+}
+h4 {
+  margin-left: 555px;
+}
+.vuive {
+  margin-right: 7px;
+  transition: width 1.3s;
+  width: 120px;
+}
+
+.vuive:hover {
+  width: 175px;
+}
+.bong1 {
+  position: relative;
+  top: -630px;
+  left: -40px;
+
+  transition: top 3s;
+}
+.bong2 {
+  position: absolute;
+  top: 760px;
+  left: 1140px;
+  transition: top 3s;
+}
+.bong3 {
+  position: absolute;
+  top: 900px;
+  left: 1020px;
+  transition: top 3s;
+}
+.bong1:hover {
+  top: -1355px;
+}
+.bong2:hover {
+  top: 300px;
+}
+.bong3:hover {
+  top: 450px;
+}
+.footer{
+background-color:rgb(255, 163, 179);
+height:120px;
+border-radius:20px;
+display:flex;
+justify-content:center;
+align-items:center;}
+.name{position:absolute;
+  top:1322px;
+left:740px;
+text-shadow:rgb(204,204,204) 1px 1px;
+color:rgb(242,242,242);}
+.bong5{display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+transition:2.5s;
+top:1px;
+width:100px;}
+.bong4{width:100px;
+}
+.bong5:hover{transform:rotate(360deg);}
